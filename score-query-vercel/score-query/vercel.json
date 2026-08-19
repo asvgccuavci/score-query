@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/api/query", "destination": "/api/query.mts" },
+    { "source": "/api/system/status", "destination": "/api/system-status.mts" },
+    { "source": "/api/admin/login", "destination": "/api/admin-auth.mts" },
+    { "source": "/api/admin/verify", "destination": "/api/admin-auth.mts" },
+    { "source": "/api/admin/auth", "destination": "/api/admin-auth.mts" },
+    { "source": "/api/admin/logs", "destination": "/api/admin-logs.mts" },
+    { "source": "/api/admin/settings", "destination": "/api/admin-settings.mts" },
+    { "source": "/api/admin/students", "destination": "/api/admin-students.mts" }
+  ]
+}
