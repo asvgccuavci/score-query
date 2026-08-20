@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "drizzle-orm": "beta",
-    "postgres": "^3.4.4"
+    "@neondatabase/serverless": "^0.10.0",
+    "drizzle-orm": "beta"
   },
   "devDependencies": {
     "drizzle-kit": "beta",
